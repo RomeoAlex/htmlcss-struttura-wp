@@ -1,0 +1,79 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contpri{
+    margin: auto;
+    width: 80%;
+    padding: 20px 0;
+}
+.titolo{
+    width:100%;
+    margin-bottom: 20px;
+
+    /* test */
+    height: 120px;
+    background-color: darkorchid;
+}
+.sottoti{
+    width:100%;
+    margin-bottom: 20px;
+    /* test */
+    height: 360px;
+    background-color: limegreen;
+}
+.box{
+    background-color: slateblue;
+    width:100%; 
+}
+.testabox{
+    width:100%;
+    margin-bottom: 20px;
+
+    /* test */
+    background-color: lightskyblue; 
+    height: 70px;
+}
+.boxcolonne{
+    /* width:100%; */
+}
+.clearfix:after{
+    content:"" ;
+    display: table;
+    clear: both;
+}
+.col{
+    float: left;
+}
+.sinistra{
+    width: 18%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    /* test */
+    height: 400px;
+    background-color: lightskyblue;
+}
+.centro{
+    width: 60%;
+
+    /* test */
+    height: 400px;
+    background-color: lightskyblue;
+}
+.destra{
+    width: 18%;
+    margin-left: 2%;
+
+    /* test */
+    height: 400px;
+    background-color: lightskyblue;
+}
+.stosotto{
+    width: 100%;
+    /* test */
+    height: 60px;
+    background-color: purple;
+
+}
