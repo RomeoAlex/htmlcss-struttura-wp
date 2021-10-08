@@ -4,11 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Contenitore della pagina */
 .contpri{
     margin: auto;
     width: 80%;
     padding: 20px 0;
 }
+/* contentitore per titolo */
 .titolo{
     width:100%;
     margin-bottom: 20px;
@@ -17,6 +19,7 @@
     height: 120px;
     background-color: darkorchid;
 }
+/* contenitore sotto al titolo */
 .sottoti{
     width:100%;
     margin-bottom: 20px;
@@ -24,10 +27,12 @@
     height: 360px;
     background-color: limegreen;
 }
+/* contenitore principale */
 .box{
     background-color: slateblue;
     width:100%; 
 }
+/* intestazione del box */
 .testabox{
     width:100%;
     margin-bottom: 20px;
@@ -36,17 +41,21 @@
     background-color: lightskyblue; 
     height: 70px;
 }
+/* inzio del box colonne */
 .boxcolonne{
     /* width:100%; */
 }
+/* regola per il contenitore delle colonne */
 .clearfix:after{
     content:"" ;
     display: table;
     clear: both;
 }
+/* regola per le colonne */
 .col{
     float: left;
 }
+/* colonna sinistra */
 .sinistra{
     width: 18%;
     margin-right: 2%;
@@ -55,6 +64,7 @@
     height: 400px;
     background-color: lightskyblue;
 }
+/* colonna centrale */
 .centro{
     width: 60%;
 
@@ -62,6 +72,7 @@
     height: 400px;
     background-color: lightskyblue;
 }
+/* colonna destra */
 .destra{
     width: 18%;
     margin-left: 2%;
@@ -70,6 +81,7 @@
     height: 400px;
     background-color: lightskyblue;
 }
+/* Contenitore nel footer */
 .stosotto{
     margin-top: 10px;
     width: 100%;
