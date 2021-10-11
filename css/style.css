@@ -12,7 +12,7 @@
 }
 /* contentitore per titolo */
 .titolo{
-    width:100%;
+    /* width:100%; */
     margin-bottom: 20px;
 
     /* test */
@@ -21,7 +21,7 @@
 }
 /* contenitore sotto al titolo */
 .sottoti{
-    width:100%;
+    /* width:100%; */
     margin-bottom: 20px;
     /* test */
     height: 360px;
@@ -30,11 +30,11 @@
 /* contenitore principale */
 .box{
     background-color: slateblue;
-    width:100%; 
+    /* width:100%;  */
 }
 /* intestazione del box */
 .testabox{
-    width:100%;
+    /* width:100%; */
     margin-bottom: 20px;
 
     /* test */
@@ -84,7 +84,7 @@
 /* Contenitore nel footer */
 .stosotto{
     margin-top: 10px;
-    width: 100%;
+    /* width: 100%; */
     /* test */
     height: 60px;
     background-color: purple;
